@@ -9,6 +9,7 @@ export default function Forecast() {
           <img
             src="https://pixy.org/src/22/thumbs350/225537.jpg"
             className="icon"
+            alt="weather icon"
           />
           <p>
             Tuesday <br />

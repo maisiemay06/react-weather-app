@@ -15,13 +15,13 @@ export default function CurrentWeather() {
           15
         </h1>
         <div className="unit-selector">
-          <a href="" id="celcius-selector" className="active">
+          <p href="" id="celcius-selector" className="active">
             ºC
-          </a>{" "}
+          </p>{" "}
           |
-          <a href="" id="fahrenheit-selector">
+          <p href="" id="fahrenheit-selector">
             ºF
-          </a>
+          </p>
         </div>
         <h4 className="date-time" id="day-time">
           Monday, 00:00
@@ -33,6 +33,7 @@ export default function CurrentWeather() {
             src="https://pixy.org/src/22/thumbs350/225537.jpg"
             id="weather-icon"
             width="150px"
+            alt="cloud icon"
           />
         </div>
       </div>

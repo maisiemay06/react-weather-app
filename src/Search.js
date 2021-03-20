@@ -3,6 +3,7 @@ import "./Search.css";
 
 export default function Search() {
   const [city, setCity] = useState(" ");
+  console.log(city);
 
   function updateCity(event) {
     setCity(event.target.value);
