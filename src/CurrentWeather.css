@@ -25,3 +25,8 @@
 .weather-icon {
   margin-top: 70px;
 }
+
+button {
+  background-color: white;
+  border: none;
+}
